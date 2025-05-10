@@ -13,14 +13,24 @@ echo "----------------------------------------------------"
 #The doctor examines the patient and gives treatment.
 #The patient is given a bed and all that ...
 
+#customer regustration
 function customerReg(){
+    
+    echo "Please register here as a patient:"
+    echo "-----------------------------------------------"
     echo "What is you full name?"
     read name
+    echo "Your address"
+    read address
     echo "What is your age?"
     read age
     echo "What is your phone number?"
     read phone
-    customer= "$name          $age          $phone"
-    return $custommer  
+    touch "$name          $address          $age          $phone" >> patientReg.txt
+    #customer = "$name          $age          $phone"
+    echo "Thank you $name for registering with us"
+    echo "---------------------------------"
+
 }
+customerReg
 
