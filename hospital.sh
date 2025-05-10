@@ -26,7 +26,7 @@ function customerReg(){
     read age
     echo "What is your phone number?"
     read phone
-    touch "$name          $address          $age          $phone" >> patientReg.txt
+    echo "$name          $address          $age          $phone" >> patientReg.txt
     #customer = "$name          $age          $phone"
     echo "Thank you $name for registering with us"
     echo "---------------------------------"
