@@ -34,3 +34,9 @@ function customerReg(){
 }
 customerReg
 
+function Nurse() {
+    echo "Taking your vitals signs:"
+    echo "Please your phone number"
+    read myPhone
+    echo "awk -v phone=$myPhone '$1 == phone' patientReg.txt"
+}
