@@ -18,12 +18,13 @@ function customerReg(){
     
     echo "Please register here as a patient:"
     echo "-----------------------------------------------"
-    echo "What is you full name?"
+    echo "Please enter your first and last names"
     read name
     echo "Your address"
     read address
     echo "What is your age?"
     read age
+    echo "full date of birth"
     echo "What is your phone number?"
     read phone
     echo "$name          $address          $age          $phone" >> patientReg.txt
