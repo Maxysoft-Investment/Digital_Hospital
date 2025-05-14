@@ -13,7 +13,7 @@ function customerReg(){
     
     echo "Please register here as a patient:"
     echo "-----------------------------------------------"
-    echo "What is you full name?"
+    echo "Please enter your first and last names"
     read name
     echo "Your address"
     read address
@@ -22,7 +22,7 @@ function customerReg(){
     echo "What is your phone number?"
     read phone
     echo "$name          $address          $age          $phone" >> patientReg.txt
-    #customer = "$name          $age          $phone"
+
     echo "Thank you $name for registering with us"
     echo "---------------------------------"
 
@@ -41,4 +41,9 @@ function add_patient() {
     #echo $name, $age, $gender, $diagnosis >> Patientinfo.txt
     #echo "patient added successfully!"
 }
+<<<<<<< HEAD
 add_patient
+=======
+#calling function Nurse
+Nurse
+>>>>>>> refs/remotes/origin/main

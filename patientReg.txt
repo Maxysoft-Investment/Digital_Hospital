@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 ,,,,clear
 ,,,,
 ,,,,
+=======
+Look Anthony          32, Cooke Road          22          07034931594
+Louis James          16, Holdenhurst road          40          07388562096
+louis Odogwu          3737, Birmigham          33          0930392922
+>>>>>>> refs/remotes/origin/main
