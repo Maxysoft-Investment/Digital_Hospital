@@ -41,3 +41,5 @@ function Nurse() {
     read myPhone
     echo "awk -v phone=$myPhone '$1 == phone' patientReg.txt"
 }
+#calling function Nurse
+Nurse
