@@ -1,14 +1,9 @@
-#!/bin/bash
-
 echo "This is my hospital management app"
-
 echo "Find the list of our health professionals"
 echo "1. Doctors"
 echo "1. Nurses"
 echo "3. Lab Technicians"
-echo "----------------------------------------------------"
-
-#The client visits the hospital. Nurse registers the client and gives him an ID and takes his vital signs.
+echo "--------------------------------------------------#The client visits the hospital. Nurse registers the client and gives him an ID and takes his vital signs.
 #The patient goes to the lab. The lab sends the patient's test result to the doctor and nurses.
 #The doctor examines the patient and gives treatment.
 #The patient is given a bed and all that ...
@@ -33,10 +28,18 @@ function customerReg(){
 
 }
 customerReg
+function add_patient()
+ {
+    echo "Enter patient name:"
+    read name
+    echo "Enter age:"
+    read age
+    echo "Enter gender:"
+    read gender
+    echo "Enter diagnosis:"
+    read diagnosis
 
-function Nurse() {
-    echo "Taking your vitals signs:"
-    echo "Please your phone number"
-    read myPhone
-    echo "awk -v phone=$myPhone '$1 == phone' patientReg.txt"
+    #echo $name, $age, $gender, $diagnosis >> Patientinfo.txt
+    #echo "patient added successfully!"
 }
+add_patient
