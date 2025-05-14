@@ -28,8 +28,7 @@ function customerReg(){
 
 }
 customerReg
-function add_patient()
- {
+function add_patient() {
     echo "Enter patient name:"
     read name
     echo "Enter age:"
