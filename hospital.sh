@@ -24,11 +24,10 @@ function customerReg(){
     read address
     echo "What is your age?"
     read age
-    echo "full date of birth"
     echo "What is your phone number?"
     read phone
     echo "$name          $address          $age          $phone" >> patientReg.txt
-    #customer = "$name          $age          $phone"
+
     echo "Thank you $name for registering with us"
     echo "---------------------------------"
 
